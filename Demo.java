@@ -9,7 +9,11 @@ class Demo{
 }
 class ToegangsPoort{
 	void toelaten() {
+		if (false) {
 		System.out.println("je bent toe gelaten?");
+		}else {
+			System.out.println("je bent niet toegelaten");
+		}
 	}
 }
 
